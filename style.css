@@ -1,0 +1,39 @@
+body { margin-top:0; padding:0; }
+.clear { clear:both;}
+.menu { padding:20px 30px; background-color:#455860; }
+.menu a { text-decoration:none; color:#47759B; }
+.up  { float:right; padding:20px 30px;}
+.up a {padding:20px 30px; border:solid; border-color:#fff; border-radius:10px; text-decoration:none;
+		font-family:arial;
+		}
+.up a:hover { background-color:#957D60; font-family: color:#fff;}
+nav ul li a { text-decoration:none;}
+nav {text-transform:uppercase;position:relative;font:bold 12px Arial,Sans-Serif;}
+nav * {margin:0 0 0 0;padding:0 0 0 0;list-style:none;}
+nav ul {overflow: hidden;float:left;background:#455860;margin:0; width: 100%;}
+nav li {float:left;display:inline;}
+nav li:hover { border-bottom:solid 5px; border-bottom-color:#957D60;}
+nav li a {padding:8px 15px;line-height:40px;color:#fff !important;display:block; text-decoration:none;}
+nav li ul{margin:0px;display:block;width:170px;position:absolute;left:auto;z-index:10;visibility:hidden;opacity:0;height:auto;transition:all 0.46s ease-out 0.2s;}
+nav li li {display:block;float:none;width:100%;}
+nav li:hover > ul {visibility:visible;width:200px;opacity:1;}nav li li ul {left:200px;margin-top:-40px;}
+nav li.sub > a {position:relative;padding-right:30px;}
+nav li.sub > a:after {content:"";width:0px;height:0px;border-width:4px;border-style:solid;border-color:#eee transparent transparent transparent;position:absolute;top:20px;right:10px;}
+nav li.sub li.sub > a:after {content:"";width:0px;height:0px;border-width:4px;border-style:solid;border-color:transparent transparent transparent #eee;position:absolute;top:16px;right:10px;}
+nav li li:hover{background:rgba(0, 0, 0, 0.16);}
+.kontent {backgorund:#000; font-size:90%;}
+.kj h1{ margin-left:40px; margin-right:40px; margin-top:100px;}
+.kj hr { margin-left:40px; margin-right:40px;}
+.kj p { margin-left:40px; margin-right:40px;}
+.tutor {border:solid 2px; margin-left:400px; margin-right:400px; border-radius:10px; text-align:center;}
+.tutor h2 {margin-top:0;border-bottom:solid 1px; background-color:#F4F2EC;}
+.tutor p {margin-left:0;}
+.faq { margin-top:100px;}
+.faq  h2 { margin-left:80px; margin-right:80px;}
+.faq  hr { margin-left:80px; margin-right:550px;}
+.faq { margin-right:100px; margin-left:100px;}
+.ceo a { text-decoration:none;}
+.ceo img {width:300px; height:300px;}
+.ceo {margin-top:100px;}
+.ceo h2 { margin-left:100px;}
+.ceo hr {margin-left:100px; margin-right:700px;}
